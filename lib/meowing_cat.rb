@@ -2,11 +2,11 @@ class Cat
   attr_accessor :name 
   
   def meow=(meow)
-    @speak = meow
+    @meow = meow
   end
   
-  def speak
-    @speak
+  def meow
+    @meow
   end
   
 end
@@ -15,6 +15,6 @@ maru = Cat.new
 maru.name = "Maru"
 maru.name 
 
-maru.speak = "meow"
-maru.speak
+maru.meow = "meow"
+maru.meow
 
