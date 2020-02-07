@@ -15,5 +15,6 @@ maru = Cat.new
 maru.name = "Maru"
 maru.name 
 
-maru.speak = meow
+maru.speak = "meow"
+maru.speak
 
