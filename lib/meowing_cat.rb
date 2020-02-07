@@ -11,3 +11,5 @@ maru.name
 def maru(meow)
   puts "#{Meow}!"
 end
+
+maru
